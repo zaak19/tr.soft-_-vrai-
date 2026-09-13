@@ -25,9 +25,5 @@ document.querySelectorAll(".langs button").forEach(b=>b.onclick=()=>{
  document.getElementById("servicesTitle").textContent=t.services;
  document.getElementById("contact").textContent=t.contact;
  document.getElementById("contactLabel").textContent=t.contact;
- ["1","2","3"].forEach(n=>{
-  document.getElementById("s"+n).textContent=t["s"+n];
-  document.getElementById("d"+n).textContent=t["d"+n];
- });
  document.documentElement.lang=b.dataset.l;
 });

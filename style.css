@@ -41,3 +41,5 @@ footer a{display:inline-block;margin-top:10px;color:#1687ff;text-decoration:none
  .service-grid{grid-template-columns:1fr}
  .service-card{min-height:auto}
 }
+
+.services-preview{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:42px}.service-item{background:#08101d;border:1px solid #1d385a;border-radius:20px;overflow:hidden;padding-bottom:20px}.service-item img{display:block;width:100%;aspect-ratio:1/1;object-fit:cover}.service-item h3{font-size:20px;margin:18px 20px 8px}.service-item p{color:#b8c2d0;margin:0 20px;line-height:1.5}.service-item strong{color:#1687ff}@media(max-width:760px){.services-preview{grid-template-columns:1fr}.service-item img{aspect-ratio:4/3}}
